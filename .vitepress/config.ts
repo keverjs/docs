@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "keverjs",
   description: "keverjs docs",
-  base: 'docs',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
