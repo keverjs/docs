@@ -1,2 +1,0 @@
-# kever
-docs
