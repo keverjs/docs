@@ -1,3 +1,5 @@
 {
-  "compilerOptions": {}
+  "compilerOptions": {},
+  "include": [".vitepress"],
+  "exclude": ["node_modules"]
 }
