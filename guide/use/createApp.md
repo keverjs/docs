@@ -25,5 +25,5 @@ interface AppOption {
 - port：启动服务的端口号，默认为8080
 - env：环境变量，默认为`development`，有`development`和`production`两种值选择
 - tsconfig：tsconfig路径，默认为工作目录下的tsconfig.json文件，路径相对于工作目录
-- plugins: 加载keverjs插件以及koa middleware，详情请看[Plugin](./plugin.md)
+- plugins: 加载keverjs插件以及koa middleware，详情请看[Plugin](../use/middleware.md)
 

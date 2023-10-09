@@ -8,7 +8,7 @@ Kever是由一个突发奇想的兴趣应运而生。
 
 ### 框架原理
 请求响应流程
-![框架原理](../.vuepress/public/assets/img/principle.png)
+<!-- ![框架原理](../.vuepress/public/assets/img/principle.png) -->
 
 ### 安装
 

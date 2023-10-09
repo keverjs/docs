@@ -25,9 +25,9 @@ kever-project
 
 - `src/index.ts` 项目主入口，没有约束，位置随意
 - `src/app/controller/**` 用于解析用户的输入，处理后返回相应的结果，具体可参考[Controller](./controller.md)
-- `src/app/plugin/**` 用于编写`kever`插件，可选，具体可参考[Plugin](./plugin.md)
+- `src/app/plugin/**` 用于编写`kever`插件，可选，具体可参考[Middleware](./middleware.md)
 - `src/app/service/**` 用于编写业务逻辑层，可选，具体可参考[Service](./service.md)
-- `src/app/model/**` 用于编写数据模型层，可选，具体可参考[Model](./model.md)
+- `src/app/model/**` 用于编写数据模型层，可选。
 
 由于生产环境是经过`Typescript`编译后的，因此自动加载的目录结构由`tsconfig`中的`outDir`配置决定，例如下面配置：
 ```json
