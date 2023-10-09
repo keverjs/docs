@@ -1,27 +1,20 @@
 import { defineConfig } from 'vitepress'
+import nav from './nav'
+import sidebar from './sidebar'
 
 export default defineConfig({
   title: "keverjs",
-  description: "keverjs docs",
+  description: "node.js framework",
   base: '/docs',
   themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    i18nRouting: true,
+    nav: nav,
+    sidebar: sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/keverjs/kever' }
+    ],
+    lastUpdated: {
+      text: 'Last Updated'
+    }
   }
 })

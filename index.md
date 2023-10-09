@@ -1,25 +1,30 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "keverjs"
-  text: "keverjs docs"
-  tagline: My great project tagline
+  name: Keverjs
+  text: Inversion of control nodejs framework
+  tagline: A lightweight inversion of control nodejs framework based on TypeScript
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting Started
+      link: /guide/introduction/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API Documentation
+      link: /api/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- icon:
+    src: /assets/ioc.svg
+  title: IOC
+  details: Decorator-based implementation of IOC weak inter-module dependencies, module weak coupling.
+- icon:
+    src: /assets/typescript.svg
+  title: TypeScript
+  details: TypeScript-based implementation, supports TypeScript-friendly type inference.
+- icon:
+    src: /assets/middleware.svg
+  title: Middleware
+  details: Powerful middleware capabilities with support for Koa Middleware.
 ---
 
